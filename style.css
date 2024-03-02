@@ -1,0 +1,79 @@
+body {
+  /* background-color: #482e84; */
+  /* background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+
+  background: linear-gradient(
+    to right,
+    #1565c0,
+    #b92b27
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+p,
+span {
+  background-color: rgb(222, 218, 218);
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+h1 {
+  background-color: rgb(222, 218, 218);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 45px;
+}
+.audio {
+  border: none;
+  /* margin-bottom: 20px; */
+  background-color: rgb(222, 218, 218);
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 31%;
+  /* border: 2px solid red; */
+  background-color: rgb(222, 218, 218);
+  height: 92vh;
+  border-radius: 30px;
+  position: relative;
+  top: 16px;
+  left: 550px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.song {
+  background-color: rgb(222, 218, 218);
+}
+img {
+  width: 230px;
+  margin-bottom: 25px;
+  border-radius: 50%;
+}
+.button {
+  /* color: black; */
+  /* border: 2px solid black; */
+  background-color: rgb(222, 218, 218);
+  padding: 7px 20px;
+  border-radius: 16px;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 0.2s ease-in-out;
+  color: #000;
+  border: 1px solid rgb(177, 172, 172);
+}
+.button:hover {
+  cursor: pointer;
+  color: #000;
+  background-color: rgb(177, 172, 172);
+}
+.btn {
+  background-color: rgb(222, 218, 218);
+  display: flex;
+  justify-content: space-around;
+  width: 444px;
+  /* border: 2px solid red; */
+  /* margin-top: 10px; */
+}
+#song-name {
+  font-size: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
