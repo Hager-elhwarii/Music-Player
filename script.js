@@ -1,7 +1,10 @@
-let audio = document.getElementsByClassName("audio")[0];
-console.dir(audio);
+const audio = document.getElementsByClassName("audio")[0];
+const current_song = document.getElementById("song-num");
+const songCover = document.getElementById("cover-img");
+const audioSrc = document.getElementById("audio-src");
+const songName = document.getElementById("song-name");
 
-// array available songs
+// Array of available songs
 const songs = [
   {
     id: 1,
@@ -29,27 +32,11 @@ const songs = [
   },
 ];
 
-window.addEventListener("load", function () {
-  document.getElementById("rangeAudio").max = audio.duration;
-});
-
-// function changeAudio(rangeAudio) {
-//   audio.currentTime = rangeAudio.valueAsNumber;
-// }
-
-function muteAudio() {
-  audio.muted = !audio.muted;
-}
-
-// function changeVolume(volumeRange) {
-//   audio.volume = volumeRange.valueAsNumber;
-// }
-
 function playAudio() {
   audio.play();
 }
 
-function TogglePauseAudio() {
+function pauseAudio() {
   if (audio.paused) {
     audio.play();
   } else {
@@ -62,14 +49,14 @@ function stopAudio() {
   audio.pause();
 }
 
-const current_song = document.getElementById("song-num");
-const songCover = document.getElementById("cover-img");
-const audioSrc = document.getElementById("audio-src");
-const songName = document.getElementById("song-name");
+function muteAudio() {
+  audio.muted = !audio.muted;
+}
 
 function changeAudio() {
   stopAudio();
   let current_song_num = current_song.innerText;
+  console.log(current_song_num);
   if (current_song_num != "4") {
     var nextSong = songs[parseInt(current_song_num)];
   } else {
