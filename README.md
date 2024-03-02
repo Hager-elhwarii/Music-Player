@@ -1,10 +1,10 @@
 
-<a name="readme-top"></a>
 # Music Player :bulb:
+<a name="readme-top"></a>
 - Build a simple Music Player using HTML, CSS, and `Vanilla JavaScript`. Users have the ability to play, pause, mute, and stop the audio playback, as well as switch between songs seamlessly. It provides a minimalistic yet functional interface for an enjoyable listening experience..
 
 ## :camera_flash: Demo Screenshoot
-![image](https://github.com/Hager-elhwarii/Weather-App/assets/80959882/e791ab8a-3d00-468c-a423-d02561804e07)
+![image](https://github.com/Hager-elhwarii/Music-Player/assets/80959882/3a6a284f-0dd0-4ab3-aa4a-0661344bde1f)
 
 ## 🚀 Deployment
  - [Music Player](https://media-player-dottie.netlify.app/)
