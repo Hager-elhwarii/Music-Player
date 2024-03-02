@@ -10,27 +10,30 @@
   </head>
 
   <body>
-    <div class="parent">
-      <p>Playing music <span id="song-num"> 1 </span> of 4</p>
-      <h1>Hits Playlist</h1>
-      <div class="song">
-        <img id="cover-img" src="./images/stay.png" />
-        <div id="song-name">Stay_Justin Bebier</div>
-        <br />
-        <audio controls loop autoplay class="audio" id="rangeAudio">
-          <source id="audio-src" src="./music/music_stay.mp3" />
-        </audio>
-      </div>
-
-      <br /><br />
-      <div class="btn">
-        <button onclick="playAudio()" class="button">play</button>
-        <button onclick="pauseAudio()" class="button">pause</button>
-        <button onclick="stopAudio()" class="button">stop</button>
-        <button onclick="muteAudio()" class="button">mute</button>
-        <button onclick="changeAudio()" class="button">next</button>
+    <div class="main">
+      <div class="parent">
+        <p>Playing music <span id="song-num"> 1 </span> of 4</p>
+        <h1>Hits Playlist</h1>
+        <div class="song">
+          <img id="cover-img" src="./images/stay.png" />
+          <div id="song-name">Stay_Justin Bebier</div>
+          <br />
+          <audio controls loop autoplay class="audio" id="rangeAudio">
+            <source id="audio-src" src="./music/music_stay.mp3" />
+          </audio>
+        </div>
+  
+        <br /><br />
+        <div class="btn">
+          <button onclick="playAudio()" class="button">play</button>
+          <button onclick="pauseAudio()" class="button">pause</button>
+          <button onclick="stopAudio()" class="button">stop</button>
+          <button onclick="muteAudio()" class="button">mute</button>
+          <button onclick="changeAudio()" class="button">next</button>
+        </div>
       </div>
     </div>
+   
     <script src="script.js"></script>
   </body>
 </html>
